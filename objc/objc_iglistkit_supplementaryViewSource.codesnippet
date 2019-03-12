@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>mk_IGListKit_SupplementaryViewSource</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - IGListSupplementaryViewSource
+
+- (NSArray&lt;NSString *&gt; *)supportedElementKinds
+{
+    return @[&lt;#UICollectionElementKindSectionHeader#&gt;, &lt;#UICollectionElementKindSectionFooter#&gt;];
+}
+
+- (UICollectionReusableView *)viewForSupplementaryElementOfKind:(NSString *)elementKind atIndex:(NSInteger)index
+{
+    if ([elementKind isEqualToString:&lt;#UICollectionElementKindSectionHeader#&gt;]) {
+        
+        &lt;#Name#&gt;HeaderView *headerView = [self.collectionContext dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionHeader forSectionController:self class:[&lt;#Name#&gt;HeaderView class] atIndex:index];
+        return headerView;
+
+    } else {
+        
+        &lt;#Name#&gt;FooterView *footerView = [self.collectionContext dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionHeader forSectionController:self class:[&lt;#Name#&gt;FooterView class] atIndex:index];
+        return footerView;
+    }
+}
+
+- (CGSize)sizeForSupplementaryViewOfKind:(NSString *)elementKind atIndex:(NSInteger)index
+{
+    return CGSizeMake(&lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;);
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C8C293D3-EB6B-4B5E-BF47-B15974A5D5DD</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Placeholders for IGListKit SupplementaryViewSource protocol methods</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>IGListKit SupplementaryViewSource</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

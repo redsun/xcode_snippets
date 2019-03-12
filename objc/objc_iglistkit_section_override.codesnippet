@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>mk_IGListKit_Section_Override</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - Override
+
+- (NSInteger)numberOfItems
+{
+    return &lt;#expression#&gt;
+}
+
+- (CGSize)sizeForItemAtIndex:(NSInteger)index
+{
+    CGFloat width  = self.collectionContext.containerSize.width;
+    CGFloat height = &lt;#height#&gt;;
+    return CGSizeMake(width, height);
+}
+
+- (__kindof UICollectionViewCell *)cellForItemAtIndex:(NSInteger)index
+{
+    UICollectionViewCell *cell = [self.collectionContext dequeueReusableCellOfClass:[self class] forSectionController:self atIndex:index];
+    return cell;
+}
+
+- (void)didUpdateToObject:(id)object
+{
+    /// update obj
+}
+
+- (void)didSelectItemAtIndex:(NSInteger)index
+{
+    
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>71BADE2F-C163-4B16-ABB5-CD17A36A4CD3</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Override some methods </string>
+	<key>IDECodeSnippetTitle</key>
+	<string>IGListKit Section</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

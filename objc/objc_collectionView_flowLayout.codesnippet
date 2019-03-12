@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>mk_UICollectionViewFlowLayout</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    UICollectionViewFlowLayout *flow = [[UICollectionViewFlowLayout alloc] init];
+    flow.scrollDirection         = &lt;#UICollectionViewScrollDirection#&gt;;
+    flow.itemSize                = &lt;#size#&gt;;
+    flow.minimumLineSpacing      = &lt;#number#&gt;;
+    flow.minimumInteritemSpacing = &lt;#number#&gt;;
+    flow.sectionInset            = &lt;#inset#&gt;;
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1E851CB4-F254-4E77-B512-190294F5DA2E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Custom initialize for UICollectionViewFlowLayout</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UICollectionViewFlowLayout init</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

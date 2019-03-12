@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>mk_UITableViewHeaderFooterView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (instancetype)initWithReuseIdentifier:(NSString *)reuseIdentifier
+{
+    if (self = [super initWithReuseIdentifier:reuseIdentifier]) {
+        [self setupViews];
+        [self setupViewConstraints];
+    }
+    return self;
+}
+
+#pragma mark - Setup
+
+- (void)setupViews
+{
+    [self.contentView addSubview:&lt;#(nonnull UIView *)#&gt;];
+    [self.contentView addSubview:&lt;#(nonnull UIView *)#&gt;];
+    [self.contentView addSubview:&lt;#(nonnull UIView *)#&gt;];
+}
+
+- (void)setupViewConstraints
+{
+    
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D52B1DAE-3792-47AE-A244-621E2E7B8952</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Custom tableView headerfooter view init with some methods</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UITableViewHeaderFooterView  Init</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
