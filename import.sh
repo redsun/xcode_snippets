@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # Copy common code snippets into xcode
 # 2019/03/16
 
